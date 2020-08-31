@@ -1,0 +1,248 @@
+/*@keyframes the{
+	0%{left:0%; top:50%;}
+	100%{left:25%; top:50%;}
+}
+
+#the{
+	position: absolute;
+	color:red;
+	font-size: 300%;
+	animation-duration:3s;
+	animation-name: the;
+
+}*/
+
+/*___________________BACKGROUND_________________*/
+/*@keyframes live-wallpaper{
+	0%{background: url('D:\\assignment\\bg\\glory.jpg');}
+	25%{background: url('D:\\assignment\\bg\\dark.jpg');}
+	50%{background: url('D:\\assignment\\bg\\glory.jpg');}
+	75%{background: url('D:\\assignment\\bg\\dark.jpg');}
+	100%{background: url('D:\\assignment\\bg\\glory.jpg');}
+
+}
+body{
+	animation-name:live-wallpaper;	
+	animation-duration: 50s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+	animation-direction:alternate;	
+	background-size: 1600px 800px;
+	background-position: centre;
+	background-repeat: no-repeat;
+}*/
+
+@keyframes live-wallpaper{
+	0%{background-position:0 0;}
+	25%{background-position: 50% 0;}
+	50%{background-position: 100% 0;}
+	75%{background-position: 50% 0;}
+	100%{background-position:0 0;}
+}
+body{
+	background: url('https://www.hdwallpapers.in/download/dark_planet_5k-5120x2880.jpg');
+	animation-name:live-wallpaper;	
+	animation-duration: 60s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+	background-position:0px 0px;
+	background-size: 1920px 1200px;
+    background-repeat: repeat-x;
+}
+#content{
+	position: absolute;
+	margin: auto;
+	left:40%;
+	top:30%;
+	font-size: 170%;
+	font-family: "Comic Sans MS";
+}
+
+/*___________________search_string_________________*/
+@keyframes color-change-on-hover{
+	0%{background-color: #eb7373 }
+	25%{background-color: #ebdd73 }
+	50%{background-color: #83eb73 }
+	75%{background-color: #73e1eb }
+	100%{background-color: #bd73eb }
+}
+@keyframes search_string-focus{
+	100%{background-color: white}	
+}
+
+#search_string{
+	border-radius: 8px;
+	border-width:1px;
+}
+
+#search_string:hover{
+	animation-name: color-change-on-hover;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+}
+
+#search_string:focus{
+	background-color: white;
+	animation-name: search_string-focus;
+}
+
+::placeholder{
+	color: #68706f;
+	text-align: center;
+}
+
+/*___________________SEARCH-BUTTON_________________*/
+@keyframes color-change-on-hover-button{
+	0%{background-color: #eb3434 }
+	50%{background-color: #bd0b0b }
+	100%{background-color: #eb3434 }
+}
+
+#button{
+	border-radius: 8px;
+	font-family: "Comic Sans MS";
+}
+}
+
+#button:hover{
+	animation-name: color-change-on-hover-button;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+a{
+	text-decoration: none;
+}
+
+/*___________________TITLE_________________*/
+
+@keyframes color-change-on-hover-text{
+	0%{color: #eb7373 }
+	25%{color: #ebdd73 }
+	50%{color: #83eb73 }
+	75%{color: #73e1eb }
+	100%{color: #bd73eb }
+
+}
+
+#title-case{
+	text-shadow: 2px 2px black;
+	animation-name: color-change-on-hover-text;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+/*___________________RESULTS_________________*/
+
+#result1 :nth-child(1){
+	position: absolute;
+	top:25%;
+	left:25%;
+
+}
+
+#result1 :nth-child(2){
+	font-weight: bold;
+	position: absolute;
+	top:25%;
+	left:40%;
+	color:red;
+}
+
+#result1 :nth-child(3){
+	position: absolute;
+	top:30%;
+	left:42%;
+	width:25%;
+	color:pink;
+}
+
+#result1 :nth-child(4){
+	position: absolute;
+	top:60%;
+	left:58%;
+	color:yellow;
+}
+
+/*_______________________________*/
+
+#result2 :nth-child(1){
+	position: absolute;
+	top:65%;
+	left:25%;
+
+}
+
+#result2 :nth-child(2){
+	position: absolute;
+	font-weight: bold;
+	top:65%;
+	left:40%;
+	color:red;
+}
+
+#result2 :nth-child(3){
+	position: absolute;
+	top:70%;
+	left:42%;
+	width:25%;
+	color:pink;
+}
+
+#result2 :nth-child(4){
+	position: absolute;
+	top:100%;
+	left:58%;
+	color:yellow;
+}
+
+/*_______________________________*/
+
+#result3 :nth-child(1){
+	position: absolute;
+	top:105%;
+	left:25%;
+
+}
+
+#result3 :nth-child(2){
+	position: absolute;
+	font-weight: bold;
+	top:105%;
+	left:40%;
+	color:red;
+}
+
+#result3 :nth-child(3){
+	position: absolute;
+	top:110%;
+	left:42%;
+	width:25%;
+	color:pink;
+}
+
+#result3 :nth-child(4){
+	position: absolute;
+	top:140%;
+	left:58%;
+	color:yellow;
+}
+
+
+@media(min-width:621px; && max-width: 730px){
+#content{
+	left:35%;
+}	
+}
+@media(max-width: 850px){
+	#content{
+		position: absolute;
+		left:35%;
+	}
+}
+@media(max-width: 620px){
+#content{
+	position: absolute;
+	left:30%;
+}	
+}

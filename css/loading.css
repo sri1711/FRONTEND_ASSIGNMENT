@@ -1,0 +1,71 @@
+
+
+/*_____________________BOXES-STYLE_______________*/
+@keyframes color-change-on-hover-boxes{
+	0%{background-color: #eb7373; border-color: black}
+	25%{background-color: #ebdd73; border-color: black}
+	50%{background-color: #83eb73; border-color: black}
+	75%{background-color: #73e1eb; border-color: black}
+	100%{background-color: #bd73eb; border-color: black}
+}
+@keyframes rotating-box1{
+	0%{left:45%;top:20%;}
+	25%{left:65%; top:45%;}
+	50%{left:45%; top:70%;}
+	75%{left:25%;top:45%;}
+	100%{left:45%;top:20%;}
+}
+/*
+@keyframes rotating-box1{
+	0%{left:30%;top:25%;}
+	25%{left:50%; top:50%;}
+	50%{left:30%; top:75%;}
+	75%{left:10%;top:50%;}
+	100%{left:30%;top:25%;}
+}*/
+
+#box1{
+	border-radius: 50px;
+	position: absolute;
+	background-color: red;
+	width:5%;
+	height:10%;
+	animation-name: rotating-box1,color-change-on-hover-boxes;
+	animation-duration: 4s;
+	animation-iteration-count:infinite;
+}
+#box2{
+	border-radius: 50px;
+	position: absolute;
+	background-color: red;
+	width:5%;
+	height:10%;
+	animation-name: rotating-box1,color-change-on-hover-boxes;
+	animation-duration: 4s;
+	animation-iteration-count:infinite;
+	animation-delay: -1s;
+}
+
+#box3{
+	border-radius: 50px;
+	position: absolute;
+	background-color: red;
+	width:5%;
+	height:10%;
+	animation-name: rotating-box1,color-change-on-hover-boxes;
+	animation-duration: 4s;
+	animation-iteration-count:infinite;
+	animation-delay: -2s;
+}
+
+#box4{
+	border-radius: 50px;
+	position: absolute;
+	background-color: red;
+	width:5%;
+	height:10%;
+	animation-name: rotating-box1,color-change-on-hover-boxes;
+	animation-duration: 4s;
+	animation-iteration-count:infinite;
+	animation-delay: -3s;
+}

@@ -1,11 +1,13 @@
 window.addEventListener("load",function(){
-	document.querySelector("#buttn").addEventListener("click",function(){
-		queryString = document.querySelector("#query").value;
+		document.querySelector("#button").addEventListener("click",function(){
+		document.querySelector("h1").style.marginTop = "-200px";
+		queryString = document.getElementById("search_string").value;
+
 		queryString&&searchQuery(queryString);	
 	})
 });
 
-var queryString = ""
+var queryString = "";
 
 function clickhandler(){
 	queryString = queryString + document.querySelector("#query").value;
@@ -77,14 +79,14 @@ function display(results){
 		}
 		else{
 			var imagey =`./no-image-available-png-3.png`
-			div.innerHTML = `<img src=${imagey} width= "185"  >`
+			div.innerHTML = `<img id="IMAGE" src=${imagey} width= "185"  >`
 		}
 		
-		div.innerHTML +=`<div><strong>TITLE :</strong> ${results[i].original_title}(${results[i].title}) </div> ` 
+		div.innerHTML +=`<div id="TITLE">${results[i].original_title}(${results[i].title}) </div> ` 
 
-		div.innerHTML += `<div><strong> SYNOPSIS :</strong> ${results[i].overview} </div>`;
+		div.innerHTML += `<div id="SYNOPSIS"> ${results[i].overview} </div>`;
   		
-  		div.innerHTML += `<div><strong>RELEASE DATE :</strong> ${results[i].release_date}</div>`;
+  		div.innerHTML += `<div id="RELEASE DATE"> ${results[i].release_date}</div>`;
 
 
 	}

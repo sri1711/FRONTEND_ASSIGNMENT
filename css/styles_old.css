@@ -1,0 +1,62 @@
+html,body{
+	background: url(https://www.hdwallpapers.in/download/dark_planet_5k-5120x2880.jpg);			
+	background-position: centre;
+	background-repeat: no-repeat;
+	background-size: 1600px 800px;
+	background-color: #232c42;
+}
+h1{
+	position: absolute;
+	left:40%;
+	right:36.5%;
+	font-size:65px;
+	color: #dadfeb;
+	text-shadow: 2px 2px #1a1666;
+}
+
+
+
+#search-string{
+	margin-top: 4px;
+	position: absolute;
+	width:220px;
+	top:220px;
+	left:40%;
+	right:36.5%;
+	opacity: 0.5;
+}
+#search-string:focus{
+left:40%;		
+width:300px;
+
+}
+
+#button{
+	position: absolute;
+	top:36%;
+	left: 46.5%;
+	opacity: 0.9;
+}
+
+@media(max-width:1088px){
+#search-string:focus{
+left:40%;		
+width:300px;
+}
+#button{
+	position: absolute;
+	top:40%;
+	left: 50%;
+	opacity: 0.9;
+}}
+@media(max-width:912px){
+#search-string:focus{
+left:38%;		
+width:300px;
+}
+#button{
+	position: absolute;
+	top:40%;
+	left: 50%;
+	opacity: 0.9;
+}}

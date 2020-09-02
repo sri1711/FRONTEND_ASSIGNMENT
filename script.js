@@ -1,6 +1,6 @@
 window.addEventListener("load",function(){
 		document.querySelector("#button").addEventListener("click",function(){
-		document.querySelector("h1").style.marginTop = "-200px";
+		document.querySelector("#content").style.top = "0%";
 		queryString = document.getElementById("search_string").value;
 
 		queryString&&searchQuery(queryString);	

@@ -132,41 +132,137 @@ a{
 	animation-iteration-count: infinite;
 }
 
-/*___________________RESULTS_________________*/
+
+/*___________________RESULT1_________________*/
+
 
 #result1 :nth-child(1){
-	position: absolute;
-	top:25%;
-	left:25%;
+	float: left;
+	padding-top: 150px;
+	clear: both;
+	/*top:50%;*/
+	/*left:25%;*/
 
 }
 
 #result1 :nth-child(2){
 	font-weight: bold;
-	position: absolute;
-	top:25%;
-	left:40%;
+	float: right;
+	padding-top: 160px;
+	clear: right;
+	/*top:25%;*/
+	/*left:40%;*/
 	color:red;
 }
 
 #result1 :nth-child(3){
-	position: absolute;
-	top:30%;
-	left:42%;
-	width:25%;
+	float: right;
+	clear: right;
+	/*top:30%;
+	left:42%;*/
+	margin-top: 30px;
+	width:65%;
 	color:pink;
 }
 
 #result1 :nth-child(4){
-	position: absolute;
-	top:60%;
-	left:58%;
+	float: right;
+	clear: right;
+   /*  top:60%;
+	left:58%;*/
+
+	margin-top: 15%;
+	margin-bottom: 30px;
+	color:yellow;
+}
+
+
+/*_________________________________RESULT2______________________________________*/
+
+#result2 :nth-child(1){
+	float: left;
+	clear: both;
+	/*top:50%;*/
+	/*left:25%;*/
+
+}
+
+
+#result2 :nth-child(2){
+	font-weight: bold;
+	float: right;
+	clear: right;
+	/*top:25%;*/
+	/*left:40%;*/
+	color:red;
+}
+
+
+#result2 :nth-child(3){
+	float: right;
+	clear: right;
+	/*top:30%;
+	left:42%;*/
+	margin-top: 15px;
+	width: 65%;
+	color:pink;
+}
+
+
+#result2 :nth-child(4){
+	float: right;
+	clear: right;
+/*	top:60%;
+	left:58%;*/
+	margin-top: 15%;
+	margin-bottom: 30px;
+	color:yellow;
+}
+
+/*______________RESULT3______________________*/
+
+#result3 :nth-child(1){
+	float: left;
+	clear: both;
+
+	/*top:50%;*/
+	/*left:25%;*/
+
+}
+
+#result3 :nth-child(2){
+	font-weight: bold;
+	float: right;
+	clear: right;
+	/*top:25%;*/
+	/*left:40%;*/
+	color:red;
+	
+}
+
+
+#result3 :nth-child(3){
+	float: right;
+	clear: right;
+	/*top:30%;
+	left:42%;*/
+	margin-top: 15%;
+	width:65%;
+	color:pink;
+}
+
+
+#result3 :nth-child(4){
+	float: right;
+	clear: right;
+/*	top:60%;
+	left:58%;*/
 	color:yellow;
 }
 
 /*_______________________________*/
 
-#result2 :nth-child(1){
+/*#result2 :nth-child(1){
 	position: absolute;
 	top:65%;
 	left:25%;
@@ -196,7 +292,7 @@ a{
 	color:yellow;
 }
 
-/*_______________________________*/
+_______________________________
 
 #result3 :nth-child(1){
 	position: absolute;
@@ -226,8 +322,7 @@ a{
 	top:140%;
 	left:58%;
 	color:yellow;
-}
-
+}*/
 
 @media(min-width:621px; && max-width: 730px){
 #content{
@@ -245,4 +340,47 @@ a{
 	position: absolute;
 	left:30%;
 }	
+#result1 :nth-child(3){
+	display: none;
+}
+#result1 :nth-child(2){
+	padding-top: 55%;
+	padding-right: 9%;
+}
+#result1 :nth-child(1){
+width: 166px;
+}
+#result1 :nth-child(4){
+	padding-right: 9%;
+}
+#result2 :nth-child(3){
+	display: none;
+}
+#result2 :nth-child(2){
+	padding-top: 22%;
+	width: 270px;
+}
+#result2 :nth-child(4){
+	padding-right: 9%;
+}
+#result2 :nth-child(1){
+width: 166px;
+}
+#result3 :nth-child(3){
+	display: none;
+}
+#result3 :nth-child(2){
+	padding-top: 22%;
+	width:270px;
+}
+#result3 :nth-child(4){
+	padding-right: 9%;
+}
+#result3 :nth-child(1){
+width: 166px;
+}
+}
+
+#row{
+	width: 90%;
 }

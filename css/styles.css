@@ -47,8 +47,8 @@ body{
 	animation-iteration-count:infinite;
 	animation-timing-function: linear;
 	background-position:0px 0px;
-	background-size: 1920px 1300px;
-    background-repeat: repeat-x repeat-y;
+	background-size: 1920px 1900px;
+    background-repeat: repeat-x ;
 }
 #content{
 	position: absolute;
@@ -141,6 +141,7 @@ a{
 	float: left;
 	padding-top: 150px;
 	clear: both;
+	padding-top: 166px;
 	/*top:50%;*/
 	/*left:25%;*/
 
@@ -173,7 +174,7 @@ a{
 	left:58%;*/
 
 	margin-top: 15%;
-	margin-bottom: 30px;
+	margin-bottom: 10%;
 	color:yellow;
 }
 
@@ -216,7 +217,7 @@ a{
 /*	top:60%;
 	left:58%;*/
 	margin-top: 15%;
-	margin-bottom: 30px;
+	margin-bottom: 10%;
 	color:yellow;
 }
 
